@@ -1,12 +1,16 @@
-# Uma introdução ao princípio de programação SOLID
+# Uma introdução ao princípios de programação SOLID
 
-Se você é um programado, é capaz de já ter se deparado com o termo [SOLID](https://en.wikipedia.org/wiki/SOLID). Introduzido à quase 20 anos, pelo mestre da programação, Robert C. Martin, famoso Uncle Bob, no livro _Princípios de Design e Padrões de Projeto_, nos dá diretrizes para construção de sistema, com linguagem orientadas à objetos, com maior legibilidade, flexibilidade e que permita fácil manutenção.
+Se você é um programado, é capaz de já ter se deparado com o termo [SOLID](https://en.wikipedia.org/wiki/SOLID) inúmeras vezes. E não é por acaso. 
 
-Neste artigo, vou descrever cada significado e demostrar exemplo da minha vivência como programado de código que aplicam este princípio, e abrir para uma reflexão no entendimento se de fato, isto nos tornou melhores programadores hoje.
+Introduzido oficialmente à quase 20 anos, pelo engenharia de software, Robert C. Martin, famoso Uncle Bob, no livro _Princípios de Design e Padrões de Projeto_, nos dá diretrizes para construção de sistemas, com linguagens orientadas à objetos, com maior legibilidade, flexibilidade e que permita fácil manutenção.
+
+Neste artigo, vou descrever cada significado e demostrar exemplo da minha vivência como programado de código que aplicam este princípio, e abrir para uma reflexão no entendimento se de fato isto nos tornou melhores programadores hoje.
 
 1. O "S" refere-se ao (SRP) _Princípio de Responsabilidade Única_, que, de acordo com Robert Martin, significa que "uma classe deve ter apenas um motivo para mudar".
 
-Quando li pela primeira vez essa afirmação, não entendi à fundo o que ele quis dizer. A ideia é, quanto mais motivos para mudar uma classe, significa que ela poderá ter mais de um propósito. 
+Considero este princípio a Bounded Context (padrão DDD) da OOP (_Object-oriented programming_). 
+
+Lendo a primeira vista, me perguntei se era possível um objeto ser imutável em um contexto de aplicações em plena evolução. A ideia é, quanto mais motivos se tem para mudar uma classe, significa que, possivelmente, ela terá mais de um propósito. 
 
 2. O "O" refere-se ao (OCP) _Princípio de Aberto e Fechado_,  que declara que as entidades de código devem estar abertas para extensão, mas fechadas para modificação.
 
